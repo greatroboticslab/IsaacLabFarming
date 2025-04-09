@@ -4,7 +4,7 @@ This repo is our fork of an Isaac Lab instance, and is dedicated to training a h
 
 ## Quick Start
 
-Make sure you have IsaacSim installed, and are running the env_isaaclab environment in conda.
+Make sure you have IsaacSim installed, and are running the env_isaaclab environment in conda. Please read [this](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) guide if you have not done this yet.
 
 To train a basic walking humanoid, run the command:
 
