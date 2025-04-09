@@ -2,6 +2,14 @@
 
 This repo is our fork of an Isaac Lab instance, and is dedicated to training a humanoid robot for agricultural purposes.
 
+## Quick Start
+
+Make sure you have IsaacSim installed, and are running the env_isaaclab environment in conda.
+
+To train a basic walking humanoid, run the command:
+
+	./isaaclab.sh -p skrl/train.py --task Isaac-G1-AMP-Walk-Direct-v0
+
 ![Isaac Lab](docs/source/_static/isaaclab.jpg)
 
 ---
