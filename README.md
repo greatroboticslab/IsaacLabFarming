@@ -1,3 +1,7 @@
+# Isaac Lab Farming
+
+This repo is our fork of an Isaac Lab instance, and is dedicated to training a humanoid robot for agricultural purposes.
+
 ![Isaac Lab](docs/source/_static/isaaclab.jpg)
 
 ---
