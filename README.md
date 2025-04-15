@@ -8,7 +8,6 @@ This repo is our fork of an Isaac Lab instance, and is dedicated to training a h
 
 Our [Blender Projects Repo](https://github.com/greatroboticslab/FarmSimulatorBlender) contains a script which allows conversion of a Blender animated skeleton to a .npz which IsaacLab can then use.
 
-## Below is the rest of the original README from the IsaacLab repo:
 
 ## Quick Start
 
@@ -17,6 +16,8 @@ Make sure you have IsaacSim installed, and are running the env_isaaclab environm
 To train a basic walking humanoid, run the command:
 
 	./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task Isaac-G1-AMP-Walk-Direct-v0
+
+## Below is the original readme from the original IsaacLab:
 
 ![Isaac Lab](docs/source/_static/isaaclab.jpg)
 
