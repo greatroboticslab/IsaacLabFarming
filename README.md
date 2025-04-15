@@ -2,6 +2,14 @@
 
 This repo is our fork of an Isaac Lab instance, and is dedicated to training a humanoid robot for agricultural purposes.
 
+### Custom Animations
+
+![NPZ Animation](npz.png)
+
+Our [Blender Projects Repo](https://github.com/greatroboticslab/FarmSimulatorBlender) contains a script which allows conversion of a Blender animated skeleton to a .npz which IsaacLab can then use.
+
+## Below is the rest of the original README from the IsaacLab repo:
+
 ## Quick Start
 
 Make sure you have IsaacSim installed, and are running the env_isaaclab environment in conda. Please read [this](https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/pip_installation.html) guide if you have not done this yet.
