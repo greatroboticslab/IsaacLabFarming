@@ -8,7 +8,7 @@ Make sure you have IsaacSim installed, and are running the env_isaaclab environm
 
 To train a basic walking humanoid, run the command:
 
-	./isaaclab.sh -p skrl/train.py --task Isaac-G1-AMP-Walk-Direct-v0
+	./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task Isaac-G1-AMP-Walk-Direct-v0
 
 ![Isaac Lab](docs/source/_static/isaaclab.jpg)
 

@@ -239,6 +239,10 @@ class MotionLoader:
             List of DOFs indexes.
         """
         indexes = []
+        print(len(dof_names))
+        print(dof_names)
+        print(self._dof_names)
+        print(len(self._dof_names))
         for name in dof_names:
             assert name in self._dof_names, f"The specified DOF name ({name}) doesn't exist: {self._dof_names}"
             indexes.append(self._dof_names.index(name))
@@ -257,6 +261,8 @@ class MotionLoader:
             List of body indexes.
         """
         indexes = []
+        #print(self._body_names)
+        #print(body_names)
         for name in body_names:
             assert name in self._body_names, f"The specified body name ({name}) doesn't exist: {self._body_names}"
             indexes.append(self._body_names.index(name))
