@@ -19,6 +19,24 @@ To train a basic walking humanoid, run the command:
 
 ## Below is the original readme from the original IsaacLab:
 
+To train and infer this using the following commands
+
+
+Train
+
+./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task Isaac-Velocity-Rough-H1-v0
+
+
+Inference
+
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/play.py \
+  --task Isaac-Velocity-Rough-H1-v0 \
+  --checkpoint logs/skrl/h1_rough/2025-04-17_20-14-51_ppo_torch/checkpoints/best_agent.pt \
+  --num_envs 64 \
+  --video \
+  --headless
+
+
 ![Isaac Lab](docs/source/_static/isaaclab.jpg)
 
 ---
